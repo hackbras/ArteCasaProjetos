@@ -1,0 +1,8 @@
+.vs/*
+obj/*
+Properties/*
+Models/*
+bin/*
+App_Data/*
+assets/*
+.gitignore

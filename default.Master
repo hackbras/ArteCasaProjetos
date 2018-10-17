@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="default.master.cs" Inherits="webFormsCodeista._default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body runat="server">
+    <form id="form1" runat="server">
+    <nav>
+        <a runat="server" href="default.aspx">Início</a>
+        <a runat="server" href="about.aspx">Quem Somos</a>
+        <a runat="server" href="services.aspx">Serviços</a>
+        <a runat="server" href="blog.aspx">Blog</a>
+        <a runat="server" href="portifolio.aspx">Portifólio</a>
+        <a runat="server" href="faq.aspx">Dúvidas</a>
+    </nav>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
