@@ -20,6 +20,8 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -74,6 +76,7 @@
     <Content Include="Global.asax" />
     <Content Include="portifolio.aspx" />
     <Content Include="services.aspx" />
+    <Content Include="style\custom.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
